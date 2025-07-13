@@ -44,7 +44,7 @@
         display: none;
     }
     .hero-img{
-        background: url("/image/hero-sm.png");
+        background: url("../image/hero-sm.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
