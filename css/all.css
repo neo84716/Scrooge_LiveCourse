@@ -98,8 +98,10 @@ a{
 	font-weight: 500;
 }
 .container{
-	max-width: 1296px;
+	max-width: 1320px;
 	margin: 0 auto;
+	padding-left: 12px;
+	padding-right: 12px;
 }
 .row{
 	display: flex;
@@ -262,6 +264,9 @@ a{
 }
 .text-neutral-500{
 	color: var(--neutral-500)
+}
+.text-neutral-600{
+	color: var(--neutral-600)
 }
 .text-neutral-900{
 	color: var(--neutral-900)

@@ -28,17 +28,7 @@
     list-style-type: disc;
     list-style-position: inside;
 }
-@media(max-width: 1320px) {
-    .main-img{
-        width: 100%;
-    }
-    .container {
-        width: 100%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
 
-}
 @media(max-width: 768px) {
     .nav-item{
         display: none;
@@ -49,8 +39,13 @@
         background-size: cover;
         background-position: center;
     }
-    .col-8{
+    .opacity-md{
+        padding: 87px 0;
+    }
+    .col-md-8{
         width: 100%;
+        padding-left: 0;
+        padding-right: 0;
     }
     .main-img{
         width: 100%;
@@ -67,5 +62,39 @@
     }
     .summary{
         align-items: flex-start;
+        padding: 24px;
+    }
+    .h3-mb{
+        font-size: 28px;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+    .h5-mb{
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+    .py-mb-32{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .mb-mb-32{
+        margin-bottom: 32px;
+    }
+    .mb-mb-16{
+        margin-bottom: 16px;
+    }
+    .mr-mb-16{
+        margin-right: 16px;
+    }
+    .h5-mb{
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+    .h6-mb{
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 700;
     }
 }
